@@ -7,3 +7,7 @@ termux-setup-storage
 #install
 
 pkg install cronie
+
+#Init
+
+sv up crond
