@@ -11,3 +11,7 @@ pkg install cronie
 #Init
 
 sv up crond
+
+#Move config files (TODO: test)
+
+cp ../config/.bash_profile ~/.bash_profile
